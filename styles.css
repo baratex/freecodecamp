@@ -1,0 +1,100 @@
+body {
+  background-image:url(https://wallpaper.dog/large/743770.jpg);
+  background-position: center;
+  width:100%;
+  height:100vh;
+  margin:0;
+  background-size: cover;
+  /background-repeat: no-repeat;
+  font-family:tahoma;
+}
+
+.caixa {
+  background: rgba(217,110,54,0.92);
+  width:60vw;
+  min-wifth:300px;
+  max-width:500px;
+  border:0.13em solid  #0A285F;
+  margin: 5vh auto;
+}
+
+form {
+  margin: auto 1em;
+}
+
+.header {
+  text-align:center;
+  padding-bottom:2em;
+  padding-top:0.5em;
+}
+
+h1,.description {
+  margin: 0.5em;
+}
+
+p {
+  margin-bottom:0.5em;
+}
+
+h1 {
+  font-family:Tahoma;
+  color: #ffcb05;
+  text-shadow:
+    2px 0 #2a75bb, 
+    0px 2px #2a75bb, 
+    -2px 0 #2a75bb, 
+    0 -2px #2a75bb,
+    2px 2px #2a75bb,
+    -2px -2px #2a75bb,
+    2px -2px #2a75bb,
+    -2px 2px #2a75bb;
+}
+
+label, input {
+  display: block;
+}
+
+input,
+textarea,
+select {
+  width:100%;
+  min-height:1.5em;
+  margin-top:0.3em;
+  margin-bottom:0.8em;
+  background-color:#fee8b9;
+  border:1px solid;
+}
+
+textarea{
+  min-height:5em;
+}
+
+.inline {
+  display: inline;
+  width:unset;
+  vertical-align:middle;
+  margin: auto auto;
+}
+
+.selectdesc{
+  margin: 1em auto;
+}
+
+.textareadesc{
+  margin: 1em auto;
+
+}
+
+.submit {
+  margin:2em auto;
+  width: 70%;
+  height:2em;
+  font-size:1.1rem;
+  font-weight:bold;
+  border: double;
+  border-color:#ffcb05;
+  background-color:#2a75bb;
+  color:#ffcb05;
+  mix-width: 200px;
+  max-width:400px
+}

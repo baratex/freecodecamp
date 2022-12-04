@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <title>
+    <meta charset="UTF-8">
+    <title>Pokemon Trainer Profile</title>
+    <link rel="stylesheet" href="styles.css">
+  <body>
+    <div class="caixa">
+      <div class="header">
+        <h1 id="title">Pokemon Trainer Profile</h1>
+        <p id="description" class="description" ><strong>This form selects your favorite activities in pokemon games</strong></p>
+      </div>
+      <form id="survey-form">
+        <label id="name-label">Trainer's Name: <input id="name" type="text" placeholder="Ash" required/></label>
+        <label id="email-label">Trainer's email: <input id="email" type="email" placeholder="ash@pallettown.com" required /></label>
+        <label id="number-label">How many different pokemons do you own (optional): <input id="number" type="number" min="0" max="1008" placeholder="3" /></label>
+        <p>Would you rather capture or free Pokemons?</p>
+          <label><input type="radio" name="capture-free" value="capture" class="inline" /> Capture</label>
+          <label><input type="radio" name="capture-free" value="Free" class="inline" /> Free</label>
+        <label class="selectdesc">Favorite Pokemon Type:
+          <select id="dropdown" required>
+            <option value="">(Select One)</option>
+            <option value="1">Water</option>
+            <option value="2">Fire</option>
+            <option value="3">Grass</option>
+            <option value="4">Ground</option>
+            <option value="5">Rock</option>
+            <option value="6">Steel</option>
+            <option value="7">Ice</option>
+            <option value="8">Electric</option>
+            <option value="9">Dragon</option>
+            <option value="10">Ghost</option>
+            <option value="11">Psychic</option>
+            <option value="12">Normal</option>
+            <option value="13">Fighting</option>
+            <option value="14">Poison</option>
+            <option value="15">Bug</option>
+            <option value="16">Flying</option>
+            <option value="17">Dark</option>
+            <option value="18">Fairy</option>
+          </select>
+        </label>
+        <p>What regions have you become a Pokemon Master: </p>
+        <label><input type="checkbox" value="Kanto" class="inline" /> Kanto</label>
+        <label><input type="checkbox" value="Johto" class="inline" /> Johto</label>
+        <label><input type="checkbox" value="Hoenn" class="inline" /> Hoenn</label>
+        <label><input type="checkbox" value="Sinnoh" class="inline" /> Sinnoh</label>
+        <label><input type="checkbox" value="Unova" class="inline" /> Unova</label>
+        <label><input type="checkbox" value="Kalos" class="inline" /> Kalos</label>
+        <label><input type="checkbox" value="Alola" class="inline" /> Alola</label>
+        <label><input type="checkbox" value="Galar" class="inline" /> Galar</label>
+        <label class="textareadesc"> Describe how did you adventure start: <textarea placeholder="It was a sunday morning..."></textarea></label>
+        <input id="submit" type="submit" value="Submit" class="submit">
+      </form>
+    </div>
+  </body>
+</html>
